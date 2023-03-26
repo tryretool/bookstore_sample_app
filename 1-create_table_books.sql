@@ -1,5 +1,5 @@
 CREATE TABLE sample_books (
-  id SERIAL PRIMARY KEY,
+  book_id SERIAL PRIMARY KEY,
   isbn TEXT NOT NULL,
   title TEXT NOT NULL,
   author TEXT NOT NULL,
